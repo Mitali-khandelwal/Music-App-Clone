@@ -1,0 +1,113 @@
+
+/*********************header-section**************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(192, 135, 246);
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a {
+   color: white;
+   text-decoration: none; 
+
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+.logo img {
+    width: 85px;
+    padding: 4px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #f0f8ff;
+}
+/*********************** main section*************************/
+.container{
+ min-height: 70vh;
+ display: flex;
+ background-color:black;
+ margin: 24px auto;
+ border-radius: 12px;
+ color: white;
+width: 70%;
+padding: 34px;
+background-image: url(img/music\ bg.jpg);
+}
+
+.playlistitemcontainer{
+    margin-top: 30px;
+}
+
+.playlistitems{
+    height: 50px;
+    background-color: rgb(193, 140, 244);
+    display: flex;
+    width: 50%;
+    color: black;
+    justify-content: center;
+    align-self: center;
+    border-radius: 35px;
+    margin: 12px 0 ;
+    padding: 5px;
+}
+.playlistitems span{
+    padding: 4px;
+    text-align: center;
+    margin: 12px auto;
+}
+.playlistitems img{
+    width: 55px;
+    margin: 0px 16px;
+    border-radius: 30px;
+}
+
+.playlistitems span i{
+    cursor: pointer;
+}
+/*********************** botttom section**********************/
+.bottom{
+    position: relative;
+    height: 80px;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    flex-direction: column;
+
+}
+
+#myscale{
+width: 50vw;
+}
+
+.bottom i{
+    cursor: pointer;
+}
+ .gif{position: absolute;
+    left: 10vw;
+ }
+
+ .gif img{
+opacity: 0;
+transition: opacity 1s ease-in;
+
+ }
